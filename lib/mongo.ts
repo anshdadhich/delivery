@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-const MONGODB_URL = process.env.MONGODB_URL as string;
+const MONGODB_URL = process.env.DATABASE_URL as string;
 
 let client: MongoClient | null = null;
 
